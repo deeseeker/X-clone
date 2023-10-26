@@ -1,0 +1,33 @@
+
+
+.search{
+    margin-bottom: 100px;
+    position: fixed;
+    top: 0px;
+    padding-top: 12px;
+    
+}
+
+.search__item{
+    display: flex;
+    align-items: center;
+    background: rgb(247, 249, 249);
+    border-radius: 16px;
+    gap: 10px;
+    padding: 12px;
+    width: 350px;
+    font-weight: 400;
+}
+
+.search__input{
+    background: rgb(247, 249, 249);
+    border-radius: 16px;
+    font-size: 15px;
+    border: none;
+    text-align: left;
+}
+
+.search-box-icon{
+    width: 26px;
+    filter: invert(36%) sepia(9%) saturate(997%) hue-rotate(158deg) brightness(96%) contrast(78%);
+}

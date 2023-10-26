@@ -1,0 +1,13 @@
+.layout__main{
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-color: rgb(239, 243, 244);
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-style: solid;
+    margin-right: 24px;
+    
+}

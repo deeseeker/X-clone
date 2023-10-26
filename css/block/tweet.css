@@ -1,0 +1,33 @@
+.tweet{
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(239, 243, 244);
+    border-bottom-style: solid;
+    display: flex;
+    gap: 16px;
+    align-items: start;
+    padding: 16px;
+    
+    
+}
+
+.tweet__author-logo{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.tweet__main{
+    padding-bottom: 12px;
+}
+
+.tweet__header{
+    display: flex;
+    gap: 2px;
+    margin-bottom: 12px;
+    align-items: center;
+}
+
+.tweet__verified-tag{
+    width: 20px;
+    height: 20px;
+    filter: invert(41%) sepia(90%) saturate(870%) hue-rotate(174deg) brightness(102%) contrast(88%);
+}

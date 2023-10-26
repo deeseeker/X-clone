@@ -1,0 +1,40 @@
+.home-block-container{
+    position: fixed;
+    
+}
+
+.home-block{
+    padding: 0 16px;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(239, 243, 244);
+    border-bottom-style: solid;
+    width: 600px;
+}
+
+.home-block__heading{
+    line-height: 24px;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 16px;
+    
+
+}
+
+.home-block__lists{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+.home-block__lists__item div{
+    padding: 12px;
+}
+
+.home-block__lists div:hover{
+    width: max-content;
+    background: rgba(15, 20, 25, 0.1);
+    cursor: pointer;
+    
+}

@@ -1,0 +1,23 @@
+.layout{
+    display: grid;
+    grid-template-columns: 195px auto 350px;
+    max-width: 1200px;
+}
+
+.layout__left-sidebar{
+    overflow-y: scroll;
+    height: 85vh;
+    position: fixed;
+    padding: 0 8px;
+}
+
+.layout__right-sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    
+    
+}
+
+
+

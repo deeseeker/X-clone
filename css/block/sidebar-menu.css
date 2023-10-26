@@ -1,0 +1,20 @@
+
+.sidebar-menu__item-icon{
+    width: 26px;
+}
+
+.sidebar-menu__item{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    gap: 20px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.sidebar-menu__item:hover{
+    background: rgba(15, 20, 25, 0.1);
+    border-radius: 30px;
+    width: fit-content;
+    cursor: pointer;
+}
